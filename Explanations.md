@@ -8,7 +8,7 @@ This guide explains what each file in the project does and when you use it. For 
  mcp_client_demo.py ─┐
  predict_option1.py ─┼──(MCP over stdin/stdout)──▶ mcp_ml_server.py
  predict_option2.py ─┘                                │          │
-          │                                          ▼          ▼
+          │                                           ▼          ▼
           ▼                                   ml_pipeline.py  parquet_store.py
  examples/prediction_examples.json            (the ML work)   (audit log)
 ```
